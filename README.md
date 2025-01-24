@@ -1,13 +1,10 @@
-
+<img src="https://pankajpramanik.com/wp-content/uploads/2025/01/pankajpramanik_banner.png" alt="pankajpramanik.com">
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=50&pause=1000&color=F75806&center=true&vCenter=true&multiline=true&width=1520&height=520&lines=Pankaj+Kumar+Pramanik;I+am+a+Full+Stack+Developer;with+7+years+of+experience;and+currently+working+on;Generative+AI%2C+LLM%2C+RAG%2C;and+AI+Agent+App+Development;with+2+years+of+AI+expertise;Always+Learn+New+Things" alt="Typing SVG" />
   </a>
 </p>
 
-
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pankaj2k9" alt="pankaj2k9" /></a> </p>
 
 - 🔭 I’m currently working on [subhub](https://app.joinsubhub.com)
 
