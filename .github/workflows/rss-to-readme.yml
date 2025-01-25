@@ -4,18 +4,19 @@ on:
   schedule:
     - cron: '0 * * * *' # Runs every hour
   workflow_dispatch: # Allow manual runs
+permissions:
+  actions: write
 
 jobs:
   update-readme:
+    name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Fetch RSS Feed and Update README
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: |
-            https://pankajpramanik.com/blog/feed/
-          max_post_count: 5 # Number of posts to show
+          feed_list: "https://pankajpramanik.com/blog/feed/"
