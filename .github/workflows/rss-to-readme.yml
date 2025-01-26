@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: '0 * * * *' # Runs every hour
   workflow_dispatch: # Allow manual runs
-permissions:
-  actions: write
 
 jobs:
   update-readme:
@@ -15,6 +13,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Fetch RSS Feed and Update README
         uses: gautamkrishnar/blog-post-workflow@v1
