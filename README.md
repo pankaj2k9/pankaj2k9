@@ -23,6 +23,11 @@
 
 ### Blogs posts
 <!-- BLOG-POST-LIST:START -->
+- [Introduction to Custom Machine Learning Models](https://pankajpramanik.com/custom-machine-learning-models/)
+- [Edge Functions Best Practices: Enhancing Web Applications with CloudFront](https://pankajpramanik.com/web-applications-with-cloudfront/)
+- [Building Real-Time Web applications with tRPC: A Comprehensive Guide](https://pankajpramanik.com/real-time-web-apps-with-trpc/)
+- [The Ethical Risks of Artificial Intelligence in Business](https://pankajpramanik.com/ethical-risks-of-artificial-intelligence/)
+- [Empowering Tomorrow: Unleashing the Potential of Big Data Solutions](https://pankajpramanik.com/potential-of-big-data-solutions/)
 <!-- BLOG-POST-LIST:END -->
 
 <h3 align="left">Connect with me:</h3>
