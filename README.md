@@ -7,9 +7,9 @@
 </p>
 
 
-- 🔭 I’m currently working on [subhub](https://app.joinsubhub.com)
+- 🔭 I'm currently working on [subhub](https://app.joinsubhub.com)
 
-- 🌱 I’m currently learning **Big Data Engineering, Deep Learning**
+- 🌱 I'm currently learning **Big Data Engineering, Deep Learning**
 
 - 👨‍💻 All of my projects are available at [pankajpramanik.com](pankajpramanik.com)
 
