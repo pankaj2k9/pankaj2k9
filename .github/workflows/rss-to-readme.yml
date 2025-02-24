@@ -19,5 +19,5 @@ jobs:
       - name: Fetch RSS Feed and Update README
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://pankajpramanik.com/blog/feed/"
+          feed_list: "https://pankajpramanik.com/feed/"
           feed_type: "atom"
