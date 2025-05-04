@@ -5,7 +5,7 @@
   </p>
 <p align="center"> 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=50&pause=1000&color=F75806&center=true&vCenter=true&multiline=true&width=1520&height=520&lines=Pankaj+Kumar+Pramanik;I+am+a+Full+Stack+Developer;with+7+years+of+experience;and+currently+working+on;Generative+AI%2C+LLM%2C+RAG%2C;and+AI+Agent+App+Development;with+2+years+of+AI+expertise;Always+Learn+New+Things" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=50&pause=1000&color=F75806&center=true&vCenter=true&multiline=true&width=1520&height=520&lines=Pankaj+Kumar+Pramanik;Data+&+AI+Engineer+and+Workflow+Automation+Expert;Experienced+in+LLM%2C+RAG%2C+LangChain%2C+n8n;Building+AI+Agents+and+Smart+Data+Systems;Always+Learning+and+Innovating" alt="Typing SVG" />
   </a>
 </p>
 
