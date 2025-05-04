@@ -10,7 +10,7 @@
 </p>
 
 
-- 🔭 I'm currently working on [subhub](https://app.joinsubhub.com)
+- 🔭 I'm currently working on [upwork](https://upwork.com)
 
 - 🌱 I'm currently learning **Big Data Engineering, Deep Learning**
 
