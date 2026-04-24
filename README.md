@@ -197,10 +197,6 @@ links:
   <img src="https://github-profile-trophy.vercel.app/?username=pankaj2k9&theme=radical&no-frame=true&no-bg=true&column=4&row=2&margin-w=10" alt="Trophies" height="190"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pankaj2k9&bg_color=0a1128&color=F75806&line=00D4FF&point=FFB347&area=true&hide_border=true" alt="Activity Graph" width="95%"/>
-</p>
-
 ---
 
 <p align="center">
