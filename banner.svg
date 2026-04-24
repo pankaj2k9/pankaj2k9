@@ -1,0 +1,272 @@
+<svg viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pankaj Kumar Pramanik - Data and AI Engineer">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="50%" stop-color="#0a1128"/>
+      <stop offset="100%" stop-color="#14142b"/>
+    </linearGradient>
+    <radialGradient id="glowOrange" cx="0.15" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#F75806" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#F75806" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#F75806" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0.9" cy="0.2" r="0.4">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="0.7" cy="0.9" r="0.35">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <pattern id="dots" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <circle cx="30" cy="30" r="1" fill="#00D4FF" fill-opacity="0.15"/>
+    </pattern>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0%" stop-color="#FFB347"/>
+      <stop offset="40%" stop-color="#F75806"/>
+      <stop offset="70%" stop-color="#FF6B9D"/>
+      <stop offset="100%" stop-color="#00D4FF"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="500" fill="url(#bgGrad)"/>
+  <rect width="1500" height="500" fill="url(#grid)"/>
+  <rect width="1500" height="500" fill="url(#dots)"/>
+  <rect width="1500" height="500" fill="url(#glowOrange)"/>
+  <rect width="1500" height="500" fill="url(#glowCyan)"/>
+  <rect width="1500" height="500" fill="url(#glowPurple)"/>
+
+  <!-- Corner brackets -->
+  <g stroke="#F75806" stroke-width="2" fill="none" opacity="0.8">
+    <path d="M 30 30 L 30 70 M 30 30 L 70 30"/>
+    <path d="M 1470 30 L 1470 70 M 1470 30 L 1430 30"/>
+    <path d="M 30 470 L 30 430 M 30 470 L 70 470"/>
+    <path d="M 1470 470 L 1470 430 M 1470 470 L 1430 470"/>
+  </g>
+
+  <!-- Background code fragments -->
+  <g font-family="'Courier New', monospace" font-size="11" fill="#00D4FF" fill-opacity="0.12">
+    <text x="1100" y="60">{ "role": "ai_engineer" }</text>
+    <text x="1150" y="85">import langchain</text>
+    <text x="1200" y="460">agent.run()</text>
+    <text x="1050" y="445">class RAGPipeline:</text>
+    <text x="900" y="70">01001100 01001101</text>
+  </g>
+
+  <!-- Neural Network (Left side) -->
+  <g transform="translate(120, 145)" filter="url(#neonGlow)">
+    <g stroke="#F75806" stroke-width="1" fill="none" opacity="0.35">
+      <line x1="0" y1="30" x2="110" y2="0"/>
+      <line x1="0" y1="30" x2="110" y2="55"/>
+      <line x1="0" y1="30" x2="110" y2="110"/>
+      <line x1="0" y1="30" x2="110" y2="165"/>
+      <line x1="0" y1="30" x2="110" y2="210"/>
+      <line x1="0" y1="105" x2="110" y2="0"/>
+      <line x1="0" y1="105" x2="110" y2="55"/>
+      <line x1="0" y1="105" x2="110" y2="110"/>
+      <line x1="0" y1="105" x2="110" y2="165"/>
+      <line x1="0" y1="105" x2="110" y2="210"/>
+      <line x1="0" y1="180" x2="110" y2="0"/>
+      <line x1="0" y1="180" x2="110" y2="55"/>
+      <line x1="0" y1="180" x2="110" y2="110"/>
+      <line x1="0" y1="180" x2="110" y2="165"/>
+      <line x1="0" y1="180" x2="110" y2="210"/>
+    </g>
+    <g stroke="#00D4FF" stroke-width="1" fill="none" opacity="0.35">
+      <line x1="110" y1="0" x2="220" y2="70"/>
+      <line x1="110" y1="0" x2="220" y2="140"/>
+      <line x1="110" y1="55" x2="220" y2="70"/>
+      <line x1="110" y1="55" x2="220" y2="140"/>
+      <line x1="110" y1="110" x2="220" y2="70"/>
+      <line x1="110" y1="110" x2="220" y2="140"/>
+      <line x1="110" y1="165" x2="220" y2="70"/>
+      <line x1="110" y1="165" x2="220" y2="140"/>
+      <line x1="110" y1="210" x2="220" y2="70"/>
+      <line x1="110" y1="210" x2="220" y2="140"/>
+    </g>
+
+    <circle r="4" fill="#FFB347">
+      <animateMotion dur="2.5s" repeatCount="indefinite" path="M 0 30 L 110 110 L 220 70"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#00D4FF">
+      <animateMotion dur="3s" repeatCount="indefinite" begin="0.5s" path="M 0 180 L 110 55 L 220 140"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.5" fill="#FF6B9D">
+      <animateMotion dur="3.5s" repeatCount="indefinite" begin="1s" path="M 0 105 L 110 165 L 220 70"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="3.5s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+
+    <g>
+      <circle cx="0" cy="30" r="8" fill="#0a1128" stroke="#F75806" stroke-width="2"/>
+      <circle cx="0" cy="30" r="3" fill="#F75806"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="0" cy="105" r="8" fill="#0a1128" stroke="#F75806" stroke-width="2"/>
+      <circle cx="0" cy="105" r="3" fill="#F75806"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.3s" repeatCount="indefinite"/></circle>
+      <circle cx="0" cy="180" r="8" fill="#0a1128" stroke="#F75806" stroke-width="2"/>
+      <circle cx="0" cy="180" r="3" fill="#F75806"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.6s" repeatCount="indefinite"/></circle>
+    </g>
+    <g>
+      <circle cx="110" cy="0" r="7" fill="#0a1128" stroke="#FFB347" stroke-width="2"/>
+      <circle cx="110" cy="0" r="2.5" fill="#FFB347"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="110" cy="55" r="7" fill="#0a1128" stroke="#FFB347" stroke-width="2"/>
+      <circle cx="110" cy="55" r="2.5" fill="#FFB347"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" begin="0.2s" repeatCount="indefinite"/></circle>
+      <circle cx="110" cy="110" r="7" fill="#0a1128" stroke="#FFB347" stroke-width="2"/>
+      <circle cx="110" cy="110" r="2.5" fill="#FFB347"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" begin="0.4s" repeatCount="indefinite"/></circle>
+      <circle cx="110" cy="165" r="7" fill="#0a1128" stroke="#FFB347" stroke-width="2"/>
+      <circle cx="110" cy="165" r="2.5" fill="#FFB347"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+      <circle cx="110" cy="210" r="7" fill="#0a1128" stroke="#FFB347" stroke-width="2"/>
+      <circle cx="110" cy="210" r="2.5" fill="#FFB347"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" begin="0.8s" repeatCount="indefinite"/></circle>
+    </g>
+    <g>
+      <circle cx="220" cy="70" r="8" fill="#0a1128" stroke="#00D4FF" stroke-width="2"/>
+      <circle cx="220" cy="70" r="3" fill="#00D4FF"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="220" cy="140" r="8" fill="#0a1128" stroke="#00D4FF" stroke-width="2"/>
+      <circle cx="220" cy="140" r="3" fill="#00D4FF"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" begin="0.4s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g font-family="'Courier New', monospace" font-size="10" fill="#64748B" text-anchor="middle">
+      <text x="0" y="240">INPUT</text>
+      <text x="110" y="240">HIDDEN</text>
+      <text x="220" y="240">OUTPUT</text>
+    </g>
+  </g>
+
+  <!-- Right content -->
+  <g transform="translate(440, 0)">
+    <!-- Terminal prompt -->
+    <g font-family="'Courier New', 'Consolas', monospace" font-size="14">
+      <text x="0" y="110" fill="#F75806" font-weight="bold">&gt;</text>
+      <text x="14" y="110" fill="#64748B">whoami</text>
+      <text x="100" y="110" fill="#00D4FF">--verbose</text>
+    </g>
+
+    <!-- Name -->
+    <text x="0" y="195" font-family="'Arial Black', 'Helvetica Neue', sans-serif" font-size="62" font-weight="900" fill="url(#nameGrad)" letter-spacing="2">PANKAJ PRAMANIK</text>
+
+    <!-- Blinking cursor -->
+    <rect x="920" y="150" width="14" height="50" fill="#F75806">
+      <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Role -->
+    <rect x="0" y="225" width="6" height="38" fill="#F75806"/>
+    <text x="20" y="253" font-family="'Helvetica Neue', sans-serif" font-size="26" font-weight="600" fill="#E8F0FF" letter-spacing="3">DATA &amp; AI ENGINEER</text>
+    <text x="20" y="278" font-family="'Courier New', monospace" font-size="13" fill="#64748B" letter-spacing="1.5">◆ WORKFLOW AUTOMATION EXPERT</text>
+
+    <!-- Skill pills -->
+    <g font-family="'Helvetica Neue', sans-serif" font-size="12" font-weight="600">
+      <!-- Row 1 — AI / LLM / Deep Learning -->
+      <g transform="translate(0, 305)">
+        <rect x="0" y="0" width="58" height="28" rx="14" fill="none" stroke="#F75806" stroke-width="1.5"/>
+        <text x="29" y="18" fill="#F75806" text-anchor="middle" letter-spacing="1">LLM</text>
+
+        <rect x="68" y="0" width="60" height="28" rx="14" fill="none" stroke="#FFB347" stroke-width="1.5"/>
+        <text x="98" y="18" fill="#FFB347" text-anchor="middle" letter-spacing="1">RAG</text>
+
+        <rect x="138" y="0" width="95" height="28" rx="14" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
+        <text x="185.5" y="18" fill="#00D4FF" text-anchor="middle" letter-spacing="1">LANGCHAIN</text>
+
+        <rect x="243" y="0" width="100" height="28" rx="14" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
+        <text x="293" y="18" fill="#00D4FF" text-anchor="middle" letter-spacing="1">LANGGRAPH</text>
+
+        <rect x="353" y="0" width="95" height="28" rx="14" fill="none" stroke="#FF6B9D" stroke-width="1.5"/>
+        <text x="400.5" y="18" fill="#FF6B9D" text-anchor="middle" letter-spacing="1">AI AGENTS</text>
+
+        <rect x="458" y="0" width="55" height="28" rx="14" fill="none" stroke="#8B5CF6" stroke-width="1.5"/>
+        <text x="485.5" y="18" fill="#8B5CF6" text-anchor="middle" letter-spacing="1">N8N</text>
+
+        <rect x="523" y="0" width="55" height="28" rx="14" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
+        <text x="550.5" y="18" fill="#00D4FF" text-anchor="middle" letter-spacing="1">NLP</text>
+
+        <rect x="588" y="0" width="55" height="28" rx="14" fill="none" stroke="#FF6B9D" stroke-width="1.5"/>
+        <text x="615.5" y="18" fill="#FF6B9D" text-anchor="middle" letter-spacing="1">CNN</text>
+
+        <rect x="653" y="0" width="160" height="28" rx="14" fill="none" stroke="#F75806" stroke-width="1.5"/>
+        <text x="733" y="18" fill="#F75806" text-anchor="middle" letter-spacing="1">TRANSFER LEARNING</text>
+      </g>
+
+      <!-- Row 2 — Data Engineering / Infra / Languages -->
+      <g transform="translate(0, 343)">
+        <rect x="0" y="0" width="58" height="28" rx="14" fill="none" stroke="#22C55E" stroke-width="1.5"/>
+        <text x="29" y="18" fill="#22C55E" text-anchor="middle" letter-spacing="1">ETL</text>
+
+        <rect x="68" y="0" width="130" height="28" rx="14" fill="none" stroke="#22C55E" stroke-width="1.5"/>
+        <text x="133" y="18" fill="#22C55E" text-anchor="middle" letter-spacing="1">DATA PIPELINES</text>
+
+        <rect x="208" y="0" width="85" height="28" rx="14" fill="none" stroke="#FFB347" stroke-width="1.5"/>
+        <text x="250.5" y="18" fill="#FFB347" text-anchor="middle" letter-spacing="1">POWER BI</text>
+
+        <rect x="303" y="0" width="65" height="28" rx="14" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
+        <text x="335.5" y="18" fill="#00D4FF" text-anchor="middle" letter-spacing="1">CLOUD</text>
+
+        <rect x="378" y="0" width="55" height="28" rx="14" fill="none" stroke="#FFB347" stroke-width="1.5"/>
+        <text x="405.5" y="18" fill="#FFB347" text-anchor="middle" letter-spacing="1">AWS</text>
+
+        <rect x="443" y="0" width="80" height="28" rx="14" fill="none" stroke="#00D4FF" stroke-width="1.5"/>
+        <text x="483" y="18" fill="#00D4FF" text-anchor="middle" letter-spacing="1">DOCKER</text>
+
+        <rect x="533" y="0" width="85" height="28" rx="14" fill="none" stroke="#FF6B9D" stroke-width="1.5"/>
+        <text x="575.5" y="18" fill="#FF6B9D" text-anchor="middle" letter-spacing="1">BIG DATA</text>
+
+        <rect x="628" y="0" width="75" height="28" rx="14" fill="none" stroke="#FFB347" stroke-width="1.5"/>
+        <text x="665.5" y="18" fill="#FFB347" text-anchor="middle" letter-spacing="1">PYTHON</text>
+
+        <rect x="713" y="0" width="75" height="28" rx="14" fill="none" stroke="#E8F0FF" stroke-width="1.5"/>
+        <text x="750.5" y="18" fill="#E8F0FF" text-anchor="middle" letter-spacing="1">NEXT.JS</text>
+      </g>
+    </g>
+
+    <!-- Status line -->
+    <g transform="translate(0, 410)" font-family="'Courier New', monospace" font-size="13">
+      <circle cx="6" cy="5" r="4" fill="#22C55E">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="20" y="10" fill="#22C55E">AVAILABLE FOR HIRE</text>
+      <text x="175" y="10" fill="#64748B">//</text>
+      <text x="200" y="10" fill="#00D4FF">pankajpramanik.com</text>
+      <text x="380" y="10" fill="#64748B">//</text>
+      <text x="405" y="10" fill="#FFB347">BUILDING INTELLIGENT SYSTEMS</text>
+    </g>
+  </g>
+
+  <!-- Right edge binary stream -->
+  <g transform="translate(1400, 140)" font-family="'Courier New', monospace" font-size="10" fill="#00D4FF">
+    <text y="0" opacity="0.4">01</text>
+    <text y="20" opacity="0.3">10</text>
+    <text y="40" opacity="0.5">11</text>
+    <text y="60" opacity="0.2">01</text>
+    <text y="80" opacity="0.4">00</text>
+    <text y="100" opacity="0.6">11</text>
+    <text y="120" opacity="0.3">10</text>
+    <text y="140" opacity="0.4">01</text>
+    <text y="160" opacity="0.5">11</text>
+    <text y="180" opacity="0.3">00</text>
+  </g>
+
+  <!-- Top scanning line -->
+  <line x1="440" y1="75" x2="1100" y2="75" stroke="#F75806" stroke-width="1" opacity="0.3"/>
+  <circle cx="440" cy="75" r="3" fill="#F75806">
+    <animate attributeName="cx" values="440;1100;440" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Bottom accent line -->
+  <line x1="440" y1="450" x2="1100" y2="450" stroke="#00D4FF" stroke-width="0.5" opacity="0.25"/>
+
+  <!-- Version tag -->
+  <g transform="translate(1380, 465)" font-family="'Courier New', monospace" font-size="10" fill="#64748B">
+    <text>v2026.01</text>
+  </g>
+</svg>
