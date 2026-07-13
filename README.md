@@ -25,7 +25,7 @@
 
 ---
 
-## 🧠  About Me
+## 👤  About Me
 
 ```yaml
 name: Pankaj Kumar Pramanik
